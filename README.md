@@ -1,1 +1,1 @@
-# mobile-robotics
+# Introduction to Mobile Robotics python exercises
