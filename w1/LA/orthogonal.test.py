@@ -14,3 +14,8 @@ matrix2 = [[2/3, 1/3, 2/3], [-2/3, 2/3, 1/3], [1/3, 2/3, -2/3]]
 
 print("matrix2")
 isOrthogonal(matrix2)
+
+matrix3 = [[2/3, 2/3, -1/3], [2/3, -1/3, 2/3], [-1/3, 2/3, 2/3]]
+
+print("Exercise matrix: ")
+isOrthogonal(matrix3)

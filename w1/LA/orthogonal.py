@@ -4,7 +4,6 @@ from identity import isIdentity
 from multiply import multiply
 
 
-
 # returns true if a matrix is orthogonal
 def isOrthogonal(matrix):
   if squareErr(matrix):
