@@ -12,4 +12,6 @@ pos1 = applySC([1.5, 2, pi/2], 0.3, 0.3, 3, l)
 pos2 = applySC(pos1, 0.1, -0.1, 1, l)
 pos3 = applySC(pos2, 0.2, 0, 2, l)
 
+print(pos1)
+print(pos2)
 print(pos3)
