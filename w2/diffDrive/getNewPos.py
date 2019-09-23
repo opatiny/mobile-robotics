@@ -8,7 +8,8 @@ def applySC(pos, vl, vr, t, l):
     x = pos[0]
     y = pos[1]
     theta = pos[2]
-    if (vl == vr):
+
+    if (vl == vr): # handling straight line movement
         return np.array([x + np.cos(theta) * vr * t, y + np.sin(theta) * vr * t, theta])
     else:
         radius = l/2 * (vl+vr)/(vr-vl)
@@ -23,8 +24,11 @@ def applySC(pos, vl, vr, t, l):
                      [np.sin(omega*t), np.cos(omega*t), 0],
                      [0, 0, 1]])
 
-        iccRobotPosition = np.array([x-iccX, y - iccY, theta])
-        translationTerm = np.array([iccX, iccY, omega+t])
+        iccRobotPosition = np.array([x-iccX, y-iccY, theta])
+        translationTerm = np.array([iccX, iccY, omega*t])
+
+        # print("product: ", np.dot(rotMatrix, iccRobotPosition))
+        # print("translation term: ",translationTerm)
 
         newPos = np.add(np.dot(rotMatrix, iccRobotPosition), translationTerm)
 
