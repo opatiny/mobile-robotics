@@ -77,14 +77,17 @@ The way you know the error parameters in real life would be my making the robot 
 
 ## Sample-Based Density Representation
 
-You take a plot and reduce it from one dimension and you represent that dimension by a set of samples whish density reflects the shape of the plot. -> We want to get samples form a distribution.
+(You take a plot and reduce it from one dimension and you represent that dimension by a set of samples which density reflects the shape of the plot. -> We want to get samples from a distribution.)
 
-You can make easy operations on a uniform random distribution to obtain a sample of a normal distribution or a triangular distribution.
- This is very fast.
+**Sample from a distribution:** Randomly generated numbers that are proportional to a PDF (Probability Density Function). In the case of the standard normal distribution (mean 0 (mu) and standard deviation 1 (sigma)), this means that 68% if the values will be in $[-1, 1]$ 95% will be in $[-2, 2]$ and 97.5% in $[-3, 3]$.
+
+You can make easy operations on a uniform random distribution to obtain a sample of a normal distribution or a triangular distribution. This is very fast.
 
 Normal distribution:
 
-<img src="https://tex.cheminfo.org/?tex=%5Cfrac%7B1%7D%7B2%7D%5Csum%5Climits_%7Bi%3D1%7D%5E%7B12%7D%20rand(-b%2C%20b)"/>
+<img src="https://tex.cheminfo.org/?tex=%5Cfrac%7B1%7D%7B2%7D%5Csum%5Climits_%7Bi%3D1%7D%5E%7B12%7D%20rand(-b%2C%20b)"/>$
+
+-> Sum twelve uniformly random generated numbers in $[-\sigma, \sigma]$. True thanks to the Central Limit Theorem
 
 Triangular distribution:
 
