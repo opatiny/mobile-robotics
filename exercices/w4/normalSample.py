@@ -45,8 +45,8 @@ def samplingTime(mu, sigma, numberSamples, functionName):
     actualTime = (end-start)/ numberSamples * 1e6
 
     print("time in us to execute " + functionName.__name__ + ": ", actualTime)
-
-
+    
+'''
 mu, sigma = 0, 1
 sampleFunction = [
     normalSampleTwelve,
@@ -57,3 +57,4 @@ sampleFunction = [
 
 for fnc in sampleFunction:
     samplingTime(mu, sigma, 10000, fnc);
+'''

@@ -8,14 +8,14 @@ Link to the course [on NextCloud](https://ikea.octanis.ch/index.php/apps/files/?
 
 ## TOC
 
-- [Introduction](./theory/w1/introduction.md)
-- [Linear algebra](./theory/w1/linear-algebra.md)
-- [Robot control paradigms](./theory/w2/control-paradigms.md)
-- [Wheeled locomotion](./theory/w3/wheeled-locomotion.md)
-- [Conditional Probability](./theory/w3/conditional-probability.md)
-- [Proximity sensors](./theory/w4/proximity-sensors.md)
-- [Probabilistic Robotics](./theory/w5/probabilistic-robotics.md)
-- [Probabilistic Motion Model](./theory/w6/probabilistic-motion-model.md)
+- [w1: Introduction](./theory/w1/introduction.md)
+- [W1: Linear algebra](./theory/w1/linear-algebra.md)
+- [W2: Robot control paradigms](./theory/w2/control-paradigms.md)
+- [W3: Wheeled locomotion](./theory/w3/wheeled-locomotion.md)
+- [W3: Conditional Probability](./theory/w3/conditional-probability.md)
+- [W4: Proximity sensors](./theory/w4/proximity-sensors.md)
+- [W5: Probabilistic Robotics](./theory/w5/probabilistic-robotics.md)
+- [W6: Probabilistic Motion Model](./theory/w6/probabilistic-motion-model.md)
 
 ## Exercices
 
