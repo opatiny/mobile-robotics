@@ -1,6 +1,6 @@
 # Week 4 - Proximity sensors
 
-[Home](../../../../README.md) | [Mobile Robotics](../mobileRobotics.md)
+[Week 3.1](../w3/conditional-probability.md) | [Week 3.2](../w3/wheeled-locomotion.md) | [Mobile Robotics](../mobileRobotics.md) | [Week 5](../w5/probabilistic-robotics.md)
 
 They are two kinds of distance sensors:
 - **active** sensors

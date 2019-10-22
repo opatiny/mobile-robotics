@@ -1,6 +1,6 @@
-# Week 1 - Compact course on linear algebra
+# Week 1.2 - Compact course on linear algebra
 
-[Home](../../../../README.md) | [Mobile Robotics](../mobileRobotics.md)
+[Week 1.1](../w1/introduction.md) | [Mobile Robotics](../mobileRobotics.md) | [Week 2](../w2/control-paradigms.md)
 
 ## Vectors
 

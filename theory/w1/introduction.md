@@ -1,6 +1,6 @@
-# Week 1 - Introduction
+# Week 1.1 - Introduction
 
-[Home](../../../../README.md) | [Mobile Robotics](../mobileRobotics.md)
+[Week 1.2](../w1/linear-algebra.md) | [Mobile Robotics](../mobileRobotics.md) | [Week 2](../w2/control-paradigms.md)
 
 - **Autonomous robot:** has to perceive it's environment and make decisions what to do next to achieve is goal
 - **Robots yesterday:** repetitive tasks, "arms" connected to the ground -> immobile, factory applications

@@ -1,11 +1,11 @@
-# Week 5 - Probabilistic Motion Models
+# Week 6 - Probabilistic Motion Models
 
-[Home](../../../../README.md) | [Mobile Robotics](../mobileRobotics.md)
+[Week 5](../w5/probabilistic-robotics.md) | [Mobile Robotics](../mobileRobotics.md) | [Week 7](../w7/probabilistic-sensor-models.md)
 
 Looking at the implementation of Bayes filters:
 $$Bel(x_t) = \eta P(z_t| x_t) \Sigma_{x_{t-1}} P(x_t|u_t, x_{t-1}) Bel(x_{t-1})$$
 
-- $P(z_t| x_t)$ : perception model
+- $P(z_t| x_t)$ : **sensor model** (or perception model)
 - $P(x_t|u_t, x_{t-1})$ : **motion model** (or transition model)
 - $Bel(x_{t-1})$ : Belief
 
@@ -16,7 +16,7 @@ $$Bel(x_t) = \eta P(z_t| x_t) \Sigma_{x_{t-1}} P(x_t|u_t, x_{t-1}) Bel(x_{t-1})$
 **Goal:** Implement the motion model as a function. This function would have this prototype:
 
 ```python
-double MM( pose x_t, odometry u_t, pose x_{t-1}); # returns a probability to be in a certain position
+double MM(pose x_t, odometry u_t, pose x_{t-1}); # returns a probability to be in a certain position
 pose mm(odometry u_t, pose x_t); # returns a prediction for a future position
 ```
 (we will do both)
@@ -85,7 +85,7 @@ You can make easy operations on a uniform random distribution to obtain a sample
 
 Normal distribution:
 
-<img src="https://tex.cheminfo.org/?tex=%5Cfrac%7B1%7D%7B2%7D%5Csum%5Climits_%7Bi%3D1%7D%5E%7B12%7D%20rand(-b%2C%20b)"/>$
+<img src="https://tex.cheminfo.org/?tex=%5Cfrac%7B1%7D%7B2%7D%5Csum%5Climits_%7Bi%3D1%7D%5E%7B12%7D%20rand(-b%2C%20b)"/>
 
 -> Sum twelve uniformly random generated numbers in $[-\sigma, \sigma]$. True thanks to the Central Limit Theorem
 

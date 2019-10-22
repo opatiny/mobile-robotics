@@ -1,6 +1,6 @@
 # Week 2 - Robot control paradigms
 
-[Home](../../../../README.md) | [Mobile Robotics](../mobileRobotics.md)
+[Week 1.1](../w1/introduction.md) | [Week 1.2](../w1/linear-algebra.md) | [Mobile Robotics](../mobileRobotics.md) | [Week 3.1](../w3/conditional-probability.md) | [Week 3.2](../w3/wheeled-locomotion.md)
 
 - In the 70ies: **Sense -> Plan -> Act**, repeat
 

@@ -1,6 +1,6 @@
 # Week 5 - Probabilistic Robotics
 
-[Home](../../../../README.md) | [Mobile Robotics](../mobileRobotics.md)
+[Week 4](../w4/proximity-sensors.md) | [Mobile Robotics](../mobileRobotics.md) | [Week 6](../w6/probabilistic-motion-models.md)
 
 Goal: Get an "explicit representation of uncertainty"
 

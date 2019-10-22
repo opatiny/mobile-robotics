@@ -1,6 +1,6 @@
-# Week 3 - Wheeled locomotion
+# Week 3.2 - Wheeled locomotion
 
-[Home](../../../../README.md) | [Mobile Robotics](../mobileRobotics.md)
+[Week 2](../w2/control-paradigms.md) | [Week 3.1](../w3/conditional-probability.md) | [Mobile Robotics](../mobileRobotics.md) | [Week 4](../w4/proximity-sensors.md)
 
 - locomotion: power of motion from place to place
 - a wheel has two parameters: the **roll forward** (angular speed) and the **orientation** (to know the global position of the robot)

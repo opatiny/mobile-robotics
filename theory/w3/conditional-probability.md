@@ -1,4 +1,6 @@
-# Conditional probability
+# Week 3.1 - Conditional probability
+
+[Week 2](../w2/control-paradigms.md) | [Week 3.2](../w3/wheeled-locomotion.md) | [Mobile Robotics](../mobileRobotics.md) | [Week 4](../w4/proximity-sensors.md)
 
 ## Definition
 
