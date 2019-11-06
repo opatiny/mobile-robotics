@@ -15,6 +15,7 @@ Link to the course [on NextCloud](https://ikea.octanis.ch/index.php/apps/files/?
 - [W5: Probabilistic Robotics](./theory/w5/probabilistic-robotics.md)
 - [W6: Probabilistic Motion Model](./theory/w6/probabilistic-motion-model.md)
 - [W7: Probabilistic Sensor Model](./theory/w7/probabilistic-sensor-model.md)
+- [W8: Bayes filter and discrete filters](./theory/w8/filters.md)
 
 ## Exercices
 

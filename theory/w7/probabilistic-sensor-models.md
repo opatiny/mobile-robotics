@@ -1,6 +1,6 @@
 # Week 7 - Probabilistic Sensor Models
 
-[Week 6](../w6/probabilistic-motion-models.md) | [Mobile Robotics](../mobileRobotics.md) | [Week 8]()
+[Week 6](../w6/probabilistic-motion-models.md) | [Mobile Robotics](../mobileRobotics.md) | [Week 8](../w8/filters.md)
 
 Bayes filters:
 $$Bel(x_t) = \eta P(z_t| x_t) \Sigma_{x_{t-1}} P(x_t|u_t, x_{t-1}) Bel(x_{t-1})$$
